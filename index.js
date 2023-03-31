@@ -1,7 +1,8 @@
 //*******************vigener********************/
 //  data
-word = "i am a programmer"
-key = "ab"
+word = "I am a programmer"  //  Enter the message
+key = "ab"  //  Enter the key
+
 c=[...word].map(x => x.charCodeAt()-97)
 d=''
 e=0
@@ -13,4 +14,5 @@ for (i of word){
     }else
         d+=i  
 }
+
 //console.log(word)
